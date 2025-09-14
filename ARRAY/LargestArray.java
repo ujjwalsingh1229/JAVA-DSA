@@ -17,9 +17,10 @@ public class LargestArray {
             }
         }
         return Largest;
+        
     }
     public static void main(String args[]){
-        int num[]={20,15,6,9,34,23,54,89,65,43,56,43};
+        int[] num={23,34,45,56,67,78,88};
         System.out.println("Largest Value is = " + getLargest(num));
     }
     
