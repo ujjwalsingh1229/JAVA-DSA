@@ -6,7 +6,7 @@ public class Functions {
         System.out.println("Hello World");
         System.out.println("Hello World");
         System.out.println("Hello World");
-        return ;
+        
     } 
 //  public static void main(String args[]) {
       //    printHelloWorld();
@@ -18,6 +18,7 @@ public class Functions {
             int a = sc.nextInt();
             int b = sc.nextInt();
             int sum =a+b;
+            sc.close();
             System.out.println("Sum is :"+sum);
 
     }
